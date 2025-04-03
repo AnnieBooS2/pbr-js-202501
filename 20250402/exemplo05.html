@@ -24,6 +24,18 @@
             width: 12rem;
             height: 7rem;
         }
+        .titulo{
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        .descricao{
+            font-size: 0.8rem;
+        }
+        .preco {
+            font-size: 1.5rem;
+            font-weight: bolder;
+            text-align: right;
+        }
     </style>
 </head>
 <body>
@@ -44,7 +56,7 @@
       document.write(`Produtos: ${produto}`);
       document.write(`<h1 class="titulo">${produto}</h1>`);
       document.write(`<article class="descricao">${descricao}</article>`);
-      document.write(`<aside class="preco">${preco}</aside>`);
+      document.write(`<aside class="preco">R$ ${preco}</aside>`);
     </script>
     </div>
 </body>
